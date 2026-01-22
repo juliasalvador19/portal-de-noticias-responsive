@@ -1,0 +1,35 @@
+header {
+    & .header-topo {
+
+        & a[aria-label="icon-menu"] {
+            background-image: url(../assets/icons/List.svg);
+            display: block;
+            width: 1.25rem;
+            height: 1.25rem;
+
+            &:hover {
+                background-image: url(../assets/icons/List-Hover.svg);
+            }
+        }
+
+        & a[aria-label="icon-search"] {
+            background-image: url(../assets/icons/MagnifyingGlass.svg);
+            display: block;
+            width: 1.25rem;
+            height: 1.25rem;
+
+            &:hover {
+                background-image: url(../assets/icons/MagnifyingGlass-Hover.svg);
+            }
+        }
+
+        & a.desktop-only {
+            font: var(--heading3);  
+            color: var(--text-color-primary);
+            
+            &:hover {
+                color: var(--brand-color-light);  
+            }
+        }
+    }
+}

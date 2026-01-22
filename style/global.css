@@ -21,8 +21,10 @@
 }
 
 body {
-    font-family: var(--font-family);
+    font: var(--span); 
     color: var(--text-color-primary); 
+
+    background-color: var(--bg-color );
 }
 
 h1 {
@@ -47,3 +49,6 @@ span {
     color: var(--text-color-primary);
 }
 
+ul[role="list"] {
+    list-style: none;
+}
